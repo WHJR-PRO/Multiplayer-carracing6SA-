@@ -141,5 +141,20 @@ class Game {
       //the event
       collected.remove();
     });
+  
+}
+
+handleResetButton() {
+  this.resetButton.mousePressed(() => {
+   //set the intial value for players and gamecount.
+  });
+}
+handlePlayerControls() {
+  if (keyIsDown(UP_ARROW)) {
+    player.positionY += 10;
+    player.update();
   }
+
+ //fill keydown for left and right
+}
 }
